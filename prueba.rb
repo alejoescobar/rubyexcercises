@@ -1,0 +1,2 @@
+puts self
+gets self
