@@ -11,5 +11,7 @@ while byes < 3
 		byes = byes + 1
 	elsif grandma != grandma.upcase
 		puts "HUH?! SPEAK UP, SONNY!"
+	elsif grandma == grandma.downcase
+		byes = 0
 	end
 end
